@@ -365,8 +365,23 @@ body {
     letter-spacing: 0.03em;
 }
 
+.socials {
+    display: flex;
+    justify-content: center;
+    margin-top: 16px;
+    margin-bottom: 30px;
+}
+
+.customers {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+
 /*Footer*/
 .footer {
+    display: flex;
     padding-top: 60px;
     padding-bottom: 60px;
     background-color: var(--color-hero);
