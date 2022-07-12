@@ -186,6 +186,25 @@ body {
     text-decoration: none;
 }
 
+.contacts {
+    text-align: center;
+}
+
+
+.contact-icon-envelope {
+    fill: currentColor;
+    width: 16px;
+    height: 12px;
+    margin-right: 10px;
+}
+
+.contact-icon-smartphone {
+    fill: currentColor;
+    width: 10px;
+    height: 16px;
+    margin-right: 10px;
+}
+
 .site-nav .link:hover,
 .site-nav .link:focus {
     color: var(--color-accent);
