@@ -190,6 +190,10 @@ body {
     text-align: center;
 }
 
+.contact {
+    display: flex;
+    align-items: center;
+}
 
 .contact-icon-envelope {
     fill: currentColor;
@@ -376,7 +380,6 @@ body {
 }
 
 .specialty {
-    margin-bottom: 30px;
     font-weight: 400;
     font-size: 16px;
     line-height: 1.19;
@@ -389,6 +392,13 @@ body {
     justify-content: center;
     margin-top: 16px;
     margin-bottom: 30px;
+}
+
+.social {
+    padding: 0;
+    border: none;
+    width: 44px;
+    height: 44px;
 }
 
 .customers {
