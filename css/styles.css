@@ -91,6 +91,7 @@ address {
     --color-second-fone: #F5F4FA;
     --color-hero: #2F303A;
     --color-logo: black;
+    --color-social-icons: #AFB1B8;
     --font-family-primary: 'Roboto', sans-serif;
     --font-family-logo: 'Raleway', sans-serif;
 }
@@ -392,13 +393,38 @@ body {
     justify-content: center;
     margin-top: 16px;
     margin-bottom: 30px;
+    list-style: none;
+}
+
+.socials .social-link + .social-link {
+    margin-left: 10px;
 }
 
 .social {
+    display: block;
     padding: 0;
     border: none;
+    background-color: var(--color-background-primary);
+    border-radius: 50%;
     width: 44px;
     height: 44px;
+}
+
+.social:hover {
+    background-color: var(--color-accent);
+}
+
+.social-icon {
+    display: flex;
+    justify-content: center;
+    fill: var(--color-social-icons);
+    width: 20px;
+    height: 20px;
+    margin: 12px;
+}
+
+.social-icon:hover {
+    fill: var(--color-background-primary);
 }
 
 .customers {
