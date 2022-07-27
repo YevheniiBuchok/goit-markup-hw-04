@@ -91,7 +91,7 @@ address {
     --color-second-fone: #F5F4FA;
     --color-hero: #2F303A;
     --color-logo: black;
-    --color-social-icons: #AFB1B8;
+    --color-icons: #AFB1B8;
     --font-family-primary: 'Roboto', sans-serif;
     --font-family-logo: 'Raleway', sans-serif;
 }
@@ -388,13 +388,6 @@ body {
     letter-spacing: 0.03em;
 }
 
-
-.customers {
-    margin-top: 50px;
-    display: flex;
-    justify-content: center;
-}
-
 .socials {
     display: flex;
     justify-content: center;
@@ -414,7 +407,7 @@ body {
     border-radius: 50%;
     justify-content: center;
     align-items: center;
-    color: var(--color-social-icons);
+    color: var(--color-icons);
     background-color: var(--color-background-primary);
 
 }
@@ -434,6 +427,32 @@ body {
     fill: currentColor;
 }
 
+.customers {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.customer-box {
+    width: 170px;
+    height: 92px;
+    border: 1px solid var(--color-icons);
+    color: var(--color-icons);
+    border-radius: 4px;
+}
+
+.customer-icon {
+    fill: currentColor;
+}
+
+.customers .customer-box+.customer-box {
+    margin-left: 30px;
+}
+
+.customer-box:hover {
+    border: solid var(--color-accent);
+    color: var(--color-accent);
+}
 
 /*Footer*/
 .footer {
@@ -475,6 +494,7 @@ body {
     color: var(--color-background-primary);
     opacity: 1.0;
 }
+
 
 /* Portfolio page */
 
