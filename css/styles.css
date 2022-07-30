@@ -456,10 +456,18 @@ body {
 
 /*Footer*/
 .footer {
-    display: flex;
     padding-top: 60px;
     padding-bottom: 60px;
     background-color: var(--color-hero);
+}
+
+.footer-info {
+    display: flex;
+    align-items: baseline;
+}
+
+.footer-box-contacts {
+    margin-right: 70px;
 }
 
 .full-logo-footer {
@@ -493,6 +501,51 @@ body {
 .address .address-link:focus {
     color: var(--color-background-primary);
     opacity: 1.0;
+}
+
+.subscribes {
+    margin-bottom: 20px;
+    color: var(--color-background-primary);
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+}
+
+.subscribe-socials {
+    display: flex;
+    justify-content: flex-start;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.company-social {
+    display: flex;
+    height: 44px;
+    width: 44px;
+    padding: 0;
+    border: none;
+    border-radius: 50%;
+    justify-content: center;
+    align-items: center;
+    color: var(--color-background-primary);
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+.company-social-link {
+    width: 20px;
+    height: 20px;
+    fill: currentColor;
+}
+
+.subscribe-socials .subscribe-link + .subscribe-link {
+    margin-left: 10px;
+}
+
+.company-social:hover {
+    background-color: var(--color-accent);
 }
 
 
@@ -584,10 +637,4 @@ body {
     line-height: 1.875;
     letter-spacing: 0.03em;
     color: var(--color-text);
-}
-
-.footer-portfolio-page {
-    background-color: var(--color-hero);
-    padding-top: 60px;
-    padding-bottom: 60px;
 }
